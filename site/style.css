@@ -1,3 +1,7 @@
+/*Fiz toda a configuração de proporções utilizando o "medidas variaveis" para ficar mais fácil a responsividade*/
+
+
+    /*Zerei as configurações de margin e padding para nao atrapalhar a construção*/
 *{
     margin: 0;
     padding: 0;
@@ -22,7 +26,6 @@ body{
     padding: 10px;
 }
 
-
 .links{
     text-decoration: none;
     font-size: 1.5vw;
@@ -38,6 +41,7 @@ body{
     opacity: 0.5;
 }
 
+/*Fixei o topo da pagina para intituir uma transição melhor pelo portifolio*/
 .menu{
     display: flex;
     justify-content: center;
@@ -65,7 +69,9 @@ body{
 .esquerda img{
     width: 100%;
     border-radius: 50%;
-    height: 85%;
+    height: 100%;
+    padding: 0,2vw,0,2vw;
+
 }
 
 .direita{
@@ -258,6 +264,7 @@ body{
     font-weight: 700;
 }
 
+/*Configuração para responsividade*/
 @media (max-width: 1000px){
 
     .esquerda img{
